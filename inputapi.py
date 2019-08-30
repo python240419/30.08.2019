@@ -35,4 +35,9 @@ class SmartInput():
             except:  # catch
                 print("error, try again")
 
+def main():
+    print('Hello.........')
+
+if __name__ == "__main__":
+    main()
 

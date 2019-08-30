@@ -25,4 +25,14 @@ class SmartInput():
         :param msg: show message
         :return: float positive
         '''
-        pass
+        while True:
+            try:
+                n = float(input(msg))
+                if (n <= 0):
+                    print('not positive')
+                else:
+                    return n
+            except:  # catch
+                print("error, try again")
+
+
